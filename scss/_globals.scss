@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'outfit', sans-serif;
+}
+
+// Breakpoints
+
+$breakpoint-up: 1440px;
+$breakpoint-down: 375px;
